@@ -30,7 +30,7 @@ Route::get('activacion/{code}', 'UserController@activate');
 Route::post('complete/{id}','UserController@complete');
 
 
-
+Route::resource('crm', 'AjaxController');
 /*
 APP_NAME=Laravel
 APP_ENV=local
